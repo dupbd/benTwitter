@@ -1,0 +1,54 @@
+a.username {
+    color: #00aced
+}
+
+a.tag {
+    color: #00aced
+}
+
+body {
+	background-color: #1DA1F2;
+
+}
+ 
+h2 {
+	color: #393f4d;
+}
+
+.list-group-item {
+	background-color: #393f4d;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	margin: 15px;
+	}
+	
+.mb-1 {
+	color: darkgrey;
+	}
+	
+.jumbotron {
+	background-color: #393f4d;
+	border-style: solid;
+	border-width: 10px;
+	border-color: grey;
+}
+
+.list-group {
+	width: 750px;
+	margin: auto;
+
+}
+.container {
+	width: 750px;
+	
+	}
+
+.validation-message {
+	color: red;
+	}
+
+#welcomeMessage {
+	color: lightgray;
+	text-align: center;
+}

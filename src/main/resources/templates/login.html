@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+
+<head th:include="fragments/head">
+<title id="title">Login</title>
+</head>
+
+<body>
+    <div class="container">
+    <div th:replace="fragments/navbar"></div>
+        <h2>Welcome!</h2> 
+        <form th:action="@{/login}" method="post"><br/>
+            <input type="text" id="username" name="username" th:placeholder="Username" class="form-control"/> <br/>
+            <input type="password" th:placeholder="Password" id="password" name="password" class="form-control"/> <br/>
+            <div align="center" th:if="${param.error}">
+                <h4 style="color: black">Login unsuccessful. Wrong username or Password</h4>
+            </div>
+            
+            <button class="btn btn-md btn-success btn-block" name="Submit" value="Login" type="Submit">Log in</button>  
+        </form>    
+        
+        <br>
+        
+        <form th:action="@{/signup}" method="get">
+        <button class="btn btn-md btn-primary btn-block" type="Submit">Sign up</button>
+        </form>
+        
+    </div>
+    <br><br><br>
+    <p id="welcomeMessage">Welcome to my Twitter I built. this took a lot of time and effort so I hope you enjoy.</p>
+    <p id="welcomeMessage">Sign up, Write some tweets, Follow your friends, and have a good old fashioned time!</p>
+   
+</body>
+</html>
+
+
+
+
+
