@@ -7,7 +7,7 @@ a.tag {
 }
 
 body {
-	background-color: #1DA1F2;
+	background-color: lightslategray;
 
 }
  
@@ -16,15 +16,15 @@ h2 {
 }
 
 .list-group-item {
-	background-color: #393f4d;
+	background-color: ;
 	border-style: solid;
 	border-width: 2px;
-	border-color: white;
+	border-color: black;
 	margin: 15px;
 	}
 	
 .mb-1 {
-	color: darkgrey;
+	color: black;
 	}
 	
 .jumbotron {
